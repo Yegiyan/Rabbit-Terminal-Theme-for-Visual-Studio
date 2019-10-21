@@ -12,4 +12,6 @@ To install this theme, you first need to install the Color Theme Editor:
 
 In Visual Studio, navigate to Tools > Customize Colors. This will open up the Color Themes tab. Now, import the theme by clicking Import Theme and select the Bisqwit-Terminal-Theme.vstheme file provided in this repository.
 
+* Bisqwit's Channel: https://www.youtube.com/user/Bisqwit
+
 ![Preview](https://i.imgur.com/42leysV.png)
