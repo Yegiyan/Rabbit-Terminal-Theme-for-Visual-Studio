@@ -1,6 +1,3 @@
-# Bisqwit-Terminal-Theme-for-Visual-Studio
-A black terminal theme based on Bisqwit's JOE syntax coloring for Visual Studio 
-
 # Prerequisites
 
 This theme has only been tested on Visual Studio 2017 though it mostly works for 2019.
