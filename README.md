@@ -1,6 +1,6 @@
 # Prerequisites
 
-This theme has only been tested on Visual Studio 2017 though it mostly works for 2019.
+A color theme inspired by Bisqwit's text editor. This has only been tested on Visual Studio 2017 though it mostly works for 2019.
 
 To install this theme, you first need to install the Color Theme Editor:
 
