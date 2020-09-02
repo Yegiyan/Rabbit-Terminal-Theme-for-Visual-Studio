@@ -1239,11 +1239,11 @@
       </Color>
       <Color Name="CppGlobalVariableSemanticTokenFormat">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFC8C8C8" />
+        <Foreground Type="CT_RAW" Source="FF949494" />
       </Color>
       <Color Name="CppLocalVariableSemanticTokenFormat">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFC8C8C8" />
+        <Foreground Type="CT_RAW" Source="FF949494" />
       </Color>
       <Color Name="CppParameterSemanticTokenFormat">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
