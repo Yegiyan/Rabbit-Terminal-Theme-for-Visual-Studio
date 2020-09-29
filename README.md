@@ -8,7 +8,7 @@ To install this theme, you first need to install the Color Theme Editor:
 
 > [Color Theme Editor for Visual Studio 2019](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.VisualStudio2019ColorThemeEditor)
 
-> [Color Theme Editor for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=yegiyan.bisqwit-terminal-theme)
+> [Bisqwit Theme for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=yegiyan.bisqwit-terminal-theme)
 
 > [Terminal Vector Font](http://www.yohng.com/software/terminalvector.html)
 
