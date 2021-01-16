@@ -1,6 +1,6 @@
 # Prerequisites
 
-A color theme inspired by Bisqwit's THAT text editor. This has only been tested on Visual Studio 2017 though it mostly works for 2019.
+A color theme inspired by Bisqwit's THAT text editor. This has mostly been tested on Visual Studio 2017 though it works properly for 2019.
 
 To install this theme, you first need to install the Color Theme Editor:
 
