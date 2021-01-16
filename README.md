@@ -8,12 +8,12 @@ To install this theme, you first need to install the Color Theme Editor:
 
 > [Color Theme Editor for Visual Studio 2019](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.VisualStudio2019ColorThemeEditor)
 -------
-> [Bisqwit Theme for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=yegiyan.bisqwit-terminal-theme)
-
 > [Terminal Vector Font](http://www.yohng.com/software/terminalvector.html)
+
+> [Bisqwit Theme for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=yegiyan.bisqwit-terminal-theme)
 -------
 In Visual Studio, navigate to Tools > Customize Colors. This will open up the Color Themes tab. Now, import the theme by clicking Import Theme and select the Bisqwit-Terminal-Theme.vstheme file provided in this repository.
 
-* Bisqwit's Channel: https://www.youtube.com/user/Bisqwit
+* Bisqwit's Youtube Channel: https://www.youtube.com/user/Bisqwit
 
 ![Preview](https://i.imgur.com/CxMUWuo.png)
