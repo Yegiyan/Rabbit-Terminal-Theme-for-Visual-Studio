@@ -1,6 +1,6 @@
 # Prerequisites
 
-A color theme inspired by Bisqwit's THAT text editor. This has mostly been tested on Visual Studio 2017 though it works properly for 2019.
+A color theme inspired by Bisqwit's THAT text editor for Visual Studio 2019. I recommend using the Terminal Vector font provided for that nice command prompt feel.
 
 To install this theme, you first need to install the Color Theme Editor:
 -------
