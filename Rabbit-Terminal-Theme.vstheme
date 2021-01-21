@@ -1,5 +1,5 @@
 <Themes>
-  <Theme Name="Bisqwit" GUID="{7e6cde85-3d44-448b-81b9-f988fae07a2d}">
+  <Theme Name="Rabbit" GUID="{7e6cde85-3d44-448b-81b9-f988fae07a2d}">
     <Category Name="ACDCOverview" GUID="{c8887ac6-3c60-4209-9d69-8f4c12a60044}">
       <Color Name="Body">
         <Background Type="CT_RAW" Source="FF000000" />
@@ -9534,6 +9534,20 @@
       <Color Name="Artboard Background">
         <Background Type="CT_INVALID" Source="00000000" />
         <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+    </Category>
+    <Category Name="XamarinDesigner" GUID="{78d640b7-154a-4d1e-bbe8-fee14b3ccf29}">
+      <Color Name="DeviceBorder">
+        <Background Type="CT_RAW" Source="FFA1A1A1" />
+      </Color>
+      <Color Name="DesignerSurfaceBackground">
+        <Background Type="CT_RAW" Source="FFF2F2F2" />
+      </Color>
+      <Color Name="DialogErrorText">
+        <Background Type="CT_RAW" Source="FFE51400" />
+      </Color>
+      <Color Name="EditorColorSwatchBorder">
+        <Background Type="CT_RAW" Source="FF808080" />
       </Color>
     </Category>
   </Theme>
