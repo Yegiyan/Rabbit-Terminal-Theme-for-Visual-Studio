@@ -16,4 +16,4 @@ In Visual Studio, navigate to Tools > Customize Colors. This will open up the Co
 
 * Bisqwit's Youtube Channel: https://www.youtube.com/user/Bisqwit
 
-![Preview](https://i.imgur.com/vtflYkZ.png)
+![Preview](https://i.imgur.com/ipgASBp.png)
