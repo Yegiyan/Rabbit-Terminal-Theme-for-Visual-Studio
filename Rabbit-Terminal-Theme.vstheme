@@ -1885,14 +1885,6 @@
         <Background Type="CT_INVALID" Source="00000000" />
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
-      <Color Name="FSharp.MutableVar">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="UnnecessaryCode">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
-      </Color>
       <Color Name="keyword - control">
         <Background Type="CT_INVALID" Source="00000000" />
         <Foreground Type="CT_RAW" Source="FFE086E6" />
@@ -1981,26 +1973,6 @@
         <Background Type="CT_INVALID" Source="00000000" />
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
-      <Color Name="FSharp.Function">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="FSharp.Printf">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="FSharp.DisposableType">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="FSharp.DisposableLocalValue">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="FSharp.DisposableTopLevelValue">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
-      </Color>
       <Color Name="inline hints">
         <Background Type="CT_INVALID" Source="00000000" />
         <Foreground Type="CT_INVALID" Source="00000000" />
@@ -2014,6 +1986,10 @@
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
       <Color Name="UnnecessaryCodeDiagnostic">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="record struct name">
         <Background Type="CT_INVALID" Source="00000000" />
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
@@ -2581,6 +2557,41 @@
       </Color>
       <Color Name="InnerTabTextPressed">
         <Background Type="CT_RAW" Source="FF55AAFF" />
+      </Color>
+      <Color Name="Container">
+        <Background Type="CT_RAW" Source="FF000000" />
+        <Foreground Type="CT_RAW" Source="FFF1F1F1" />
+      </Color>
+      <Color Name="StatusBannerInfo">
+        <Background Type="CT_RAW" Source="0A1BA1E2" />
+        <Foreground Type="CT_RAW" Source="FFF1F1F1" />
+      </Color>
+      <Color Name="StatusBannerInfoBorder">
+        <Foreground Type="CT_RAW" Source="FF1BA1E2" />
+      </Color>
+      <Color Name="StatusBannerProgress">
+        <Background Type="CT_RAW" Source="0A94A6CA" />
+        <Foreground Type="CT_RAW" Source="FFF1F1F1" />
+      </Color>
+      <Color Name="StatusBannerProgressBorder">
+        <Foreground Type="CT_RAW" Source="FF333337" />
+      </Color>
+      <Color Name="StatusBannerSuccess">
+        <Background Type="CT_RAW" Source="0A2E7D32" />
+        <Foreground Type="CT_RAW" Source="FFF1F1F1" />
+      </Color>
+      <Color Name="StatusBannerSuccessBorder">
+        <Foreground Type="CT_RAW" Source="FF2E7D32" />
+      </Color>
+      <Color Name="StatusBannerError">
+        <Background Type="CT_RAW" Source="0AD53230" />
+        <Foreground Type="CT_RAW" Source="FFF1F1F1" />
+      </Color>
+      <Color Name="StatusBannerErrorBorder">
+        <Foreground Type="CT_RAW" Source="FFD53230" />
+      </Color>
+      <Color Name="PageBackground">
+        <Background Type="CT_RAW" Source="FF000000" />
       </Color>
     </Category>
     <Category Name="CommonDocumentCard" GUID="{2e129498-0d2d-43ca-94d6-c652c0132543}">
@@ -5719,15 +5730,6 @@
       </Color>
       <Color Name="Selected Text">
         <Background Type="CT_RAW" Source="FF3399FF" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="Inactive Selected Text">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="Selected Text in High Contrast">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
     </Category>
     <Category Name="GraphicsDebugger" GUID="{40cdc500-10ac-41df-a533-6af2aaaa0c4b}">
@@ -6562,6 +6564,9 @@
       <Color Name="WatermarkText">
         <Foreground Type="CT_RAW" Source="FF999999" />
       </Color>
+      <Color Name="WizardBackgroundLowerRegion">
+        <Background Type="CT_RAW" Source="FF000000" />
+      </Color>
     </Category>
     <Category Name="NotificationBubble" GUID="{800c5171-6625-4a74-b3e2-a6cd0b4698d4}">
       <Color Name="NotificationBubbleBorder">
@@ -7118,15 +7123,19 @@
     <Category Name="SQL Results - Grid" GUID="{6202ff3e-488e-4ead-92cb-be089659f8d7}">
       <Color Name="Header Row">
         <Background Type="CT_RAW" Source="FF000000" />
+        <Foreground Type="CT_RAW" Source="FFF1F1F1" />
       </Color>
       <Color Name="Selected Cell">
         <Background Type="CT_RAW" Source="FF3399FF" />
+        <Foreground Type="CT_RAW" Source="FFFFFFFF" />
       </Color>
       <Color Name="Inactive Selected Cell">
         <Background Type="CT_RAW" Source="FF111111" />
+        <Foreground Type="CT_RAW" Source="FFF1F1F1" />
       </Color>
       <Color Name="Null Value Cell">
         <Background Type="CT_RAW" Source="FF000000" />
+        <Foreground Type="CT_RAW" Source="FF656565" />
       </Color>
       <Color Name="Grid Cell">
         <Background Type="CT_RAW" Source="FF000000" />
@@ -7904,7 +7913,7 @@
       </Color>
       <Color Name="Comment">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFE05A5A" />
+        <Foreground Type="CT_RAW" Source="FFB95959" />
       </Color>
       <Color Name="Identifier">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
@@ -7987,58 +7996,6 @@
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
       <Color Name="Register Data">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="XAML Text">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="XAML Keyword">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF569CD6" />
-      </Color>
-      <Color Name="XAML Delimiter">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF808080" />
-      </Color>
-      <Color Name="XAML Comment">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF57A64A" />
-      </Color>
-      <Color Name="XAML Name">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="XAML Attribute">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF92CAF4" />
-      </Color>
-      <Color Name="XAML CData Section">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="XAML Processing Instruction">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="XAML Attribute Value">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF569CD6" />
-      </Color>
-      <Color Name="XAML Attribute Quotes">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF808080" />
-      </Color>
-      <Color Name="XAML Markup Extension Class">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="XAML Markup Extension Parameter Name">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFD7BA7D" />
-      </Color>
-      <Color Name="XAML Markup Extension Parameter Value">
         <Background Type="CT_INVALID" Source="00000000" />
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
@@ -9450,12 +9407,6 @@
       </Color>
       <Color Name="EditorColorSwatchBorder">
         <Background Type="CT_RAW" Source="FF808080" />
-      </Color>
-    </Category>
-    <Category Name="XAML Designer" GUID="{fa937f7b-c0d2-46b8-9f10-a7a92642b384}">
-      <Color Name="Artboard Background">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
     </Category>
   </Theme>
